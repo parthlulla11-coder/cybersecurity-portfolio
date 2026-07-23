@@ -1,6 +1,6 @@
 # TryHackMe
 
-This directory contains my learning notes and write-ups from TryHackMe learning paths and rooms.
+This directory contains my hands-on labs, learning notes, and write-ups completed through TryHackMe.
 
 ## Learning Paths
 
@@ -8,3 +8,5 @@ This directory contains my learning notes and write-ups from TryHackMe learning 
 - Pre Security
 - Jr Penetration Tester
 - SOC Level 1
+
+Each learning path contains notes, key concepts, and practical skills gained during the labs.
