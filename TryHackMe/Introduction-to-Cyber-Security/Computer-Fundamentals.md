@@ -2,13 +2,13 @@
 
 ## Overview
 
-This learning path introduces the core concepts of cybersecurity and provides a strong foundation in computer systems, virtualization, cloud computing, networking, and security principles. These concepts form the building blocks for understanding how modern IT environments operate and how cybersecurity professionals protect them.
+This learning path introduces the fundamental concepts of cybersecurity and provides a strong foundation in computer systems, virtualization, cloud computing, networking, and core security principles. These topics form the building blocks for understanding how modern IT systems operate and how cybersecurity professionals secure them.
 
 ---
 
 ## Module Progress
 
-### 🚧 Computer Fundamentals *(In Progress)*
+### ✅ Computer Fundamentals *(Completed)*
 
 #### Topics Completed
 
@@ -16,10 +16,9 @@ This learning path introduces the core concepts of cybersecurity and provides a 
 * [x] Computer Types
 * [x] Client-Server Basics
 * [x] Virtualisation Basics
+* [x] Cloud Computing Fundamentals
 
-#### Topics Remaining
-
-* [ ] Cloud Computing Fundamentals *(Pending)*
+🎉 **All topics in the Computer Fundamentals module have been completed.**
 
 ---
 
@@ -27,7 +26,7 @@ This learning path introduces the core concepts of cybersecurity and provides a 
 
 ## Objective
 
-Understand how computers work, the different types of computer systems, how clients and servers communicate, and how virtualization and cloud computing support modern IT infrastructure.
+Understand how computers work, how different computer systems communicate, and how virtualization and cloud technologies support modern IT infrastructure.
 
 ---
 
@@ -47,7 +46,7 @@ Understand how computers work, the different types of computer systems, how clie
 
 * Learned the purpose of each major hardware component inside a computer.
 * Understood how the CPU, RAM, storage, and motherboard work together to run an operating system and applications.
-* Built a basic understanding of how hardware supports software.
+* Built a strong understanding of how hardware supports software.
 
 ---
 
@@ -63,9 +62,9 @@ Understand how computers work, the different types of computer systems, how clie
 
 **What I Learned**
 
-* Learned the differences between common computer types and their purposes.
+* Learned the differences between various computer types and their use cases.
 * Understood why servers are designed to provide resources and services to multiple users.
-* Learned how embedded systems are used in everyday devices.
+* Recognized how embedded systems are used in everyday devices.
 
 ---
 
@@ -79,9 +78,9 @@ Understand how computers work, the different types of computer systems, how clie
 
 **What I Learned**
 
-* Learned how clients communicate with servers across a network.
-* Understood the request-and-response process between clients and servers.
-* Recognized real-world examples such as websites, email services, cloud applications, and online gaming.
+* Learned how clients and servers communicate across a network.
+* Understood how requests and responses power websites, email services, cloud platforms, and many online applications.
+* Built a foundation for understanding networking and internet communication.
 
 ---
 
@@ -101,61 +100,101 @@ Understand how computers work, the different types of computer systems, how clie
 * Learned how virtual machines allow multiple operating systems to run on a single physical computer.
 * Understood the role of hypervisors in creating and managing virtual machines.
 * Learned the differences between Type 1 and Type 2 hypervisors.
-* Understood how snapshots help restore a virtual machine after testing or configuration changes.
-* Learned why virtualization is widely used for cybersecurity labs, malware analysis, and penetration testing.
+* Understood how snapshots help restore virtual machines after testing or configuration changes.
+* Learned why virtualization is essential for cybersecurity labs, malware analysis, and penetration testing.
 
 ---
 
-### ⏳ Cloud Computing Fundamentals *(Pending)*
+### ✅ Cloud Computing Fundamentals
 
-**Topics to Learn**
+**Key Concepts**
 
-* What is Cloud Computing?
-* Service Models (IaaS, PaaS, SaaS)
-* Deployment Models
-* Benefits of Cloud Computing
-* Cloud Security Fundamentals
+* Cloud Computing
+* Public Cloud
+* Private Cloud
+* Hybrid Cloud
+* Infrastructure as a Service (IaaS)
+* Platform as a Service (PaaS)
+* Software as a Service (SaaS)
+* Amazon EC2
+* Scalability
+* High Availability
+* Global Access
+
+**What I Learned**
+
+* Learned how cloud computing provides computing resources over the internet.
+* Understood the differences between Public, Private, and Hybrid cloud deployment models.
+* Learned how IaaS, PaaS, and SaaS provide different levels of management and responsibility.
+* Understood the benefits of cloud computing, including scalability, security, cost efficiency, and global accessibility.
+* Learned how cloud providers allow organizations to deploy applications without maintaining physical infrastructure.
 
 ---
 
-## Skills Gained So Far
+## Skills Gained
 
 * Understanding of computer hardware components.
-* Knowledge of different computer types and their use cases.
+* Knowledge of different computer types and their purposes.
 * Basic understanding of client-server architecture.
 * Understanding of virtualization concepts and hypervisors.
-* Familiarity with virtual machines and isolated lab environments.
-* Strong foundation for cloud computing and cybersecurity concepts.
+* Knowledge of cloud deployment models and cloud service models.
+* Familiarity with virtual machines and cloud technologies.
+* Strong foundation for networking, Linux, operating systems, and cybersecurity.
 
 ---
 
 ## Practical Applications
 
-* Building a personal cybersecurity lab using Oracle VirtualBox or VMware Workstation.
-* Testing operating systems safely inside virtual machines.
-* Creating isolated environments for malware analysis and security research.
-* Practicing penetration testing without affecting the host operating system.
-* Using snapshots to restore systems after testing or configuration changes.
+The concepts learned throughout this module can be applied in many real-world scenarios, including:
+
+* Building personal cybersecurity labs using virtual machines.
+* Testing operating systems in isolated environments.
+* Creating safe environments for malware analysis and penetration testing.
+* Deploying applications using cloud infrastructure.
+* Scaling applications based on user demand.
+* Understanding how organizations securely manage cloud environments.
+* Preparing for cloud security and SOC-related roles.
 
 ---
 
-## Tools Mentioned
+## Tools & Technologies Mentioned
+
+### Virtualisation
 
 * Oracle VirtualBox
 * VMware Workstation
 * Microsoft Hyper-V
 * VMware ESXi
 
+### Cloud Computing
+
+* Amazon EC2 (AWS)
+* Public Cloud
+* Private Cloud
+* Hybrid Cloud
+
+---
+
+## Key Takeaways
+
+Throughout this module, I developed a strong understanding of the technologies that form the foundation of modern computing.
+
+I learned how computer hardware works, how different systems communicate over networks, how virtualization enables isolated environments, and how cloud computing provides scalable and cost-effective infrastructure for modern applications.
+
+These concepts provide the knowledge required before progressing to networking, operating systems, Linux, cloud security, penetration testing, and Security Operations (SOC).
+
 ---
 
 ## Reflection
 
-This module provided a strong understanding of how computer systems operate, communicate, and support modern IT environments. Learning about virtualization demonstrated how cybersecurity professionals safely create testing environments and experiment with systems without impacting production machines.
+Completing the Computer Fundamentals module has given me a solid understanding of the technologies that support modern IT and cybersecurity. The combination of hardware, networking, virtualization, and cloud computing concepts has prepared me for more advanced cybersecurity topics and hands-on labs.
 
-The knowledge gained from this module will serve as a foundation for learning networking, Linux, cloud computing, penetration testing, and Security Operations (SOC).
+This knowledge will serve as the foundation for the next stages of my learning journey, including operating systems, networking, Linux, cloud security, and ethical hacking.
 
 ---
 
 ## Status
 
-✅ Completed
+✅ **Computer Fundamentals Module Completed**
+
+**Next Module:** Operating Systems Introduction
