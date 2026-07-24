@@ -1,5 +1,3 @@
-Absolutely. This format is actually better for a learning portfolio because it reads like your own study notes instead of a formal report. Here's the rewritten version in the same style, updated with **Virtualisation Basics completed** and improved wording.
-
 # Introduction to Cyber Security
 
 ## Overview
