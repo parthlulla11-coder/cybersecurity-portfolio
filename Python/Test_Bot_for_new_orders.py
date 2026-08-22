@@ -1,0 +1,10 @@
+print("Hi welcome to TestCafe!\n")#print function
+name = input("What's your name?\n")# vriable declaration + input - this means that what ever input we get that will be stored in the variable - name
+print("hello " + name + " Thank you so much for choosing Testcafe!\n")#used that variable in the print function
+menu = "Tea, coffee, coldrink, Beer, chicken"#variable
+print (name + ", what would you like to have from our menu today?, Here's our Menu!\n\n" + menu)# used the name and the menu variables here
+Order = input()# this is to take the input and store that input as a memory in the variable order
+print("Got It! " + name + " Is there anything you would like to have along with " + Order + "?")# variables and print function
+print(menu)# Printing a variable
+Second_order = input()# declaring a new input variable. the input will be sotred as a memory in the variable - second_order. (we used _ for the space.)
+print("Perfect! " + name + " I'll have the " + Order +" And " + Second_order + " ready for you in a moment!\n") # final result.
