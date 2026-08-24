@@ -1,0 +1,39 @@
+print("Hi welcome to TestCafe!\n")
+
+name = input("What's your name?\n")
+
+if name == "ben" or name == "Ben":
+    print("I'm sorry " + name + ". I'm afraid you're Banned from the cafe!.")
+    exit()
+else:
+    print("hello " + name + " Thank you so much for choosing Testcafe!\n")
+
+menu = "tea, coffee, coldrink, Beer, chicken"
+
+print (name + ", what would you like to have from our menu today?, Here's our Menu!\n\n" + menu)
+
+order = input()
+
+price = 20
+
+quantity = input("Good Choice! How many " + order + "?" " would you like to have?\n")
+
+order_2 = input("Is there anything you would like to pair with your beer? " + order + "?\n")
+
+if order_2 == "yes" or order_2 == "yeah" or order_2 == "Yes" or order_2 == "YES":
+  order_2 = input("Noted! " + name + " What can i get you? \n " + menu)
+  quantity_2 = input("How many " + order_2 + " would you like to have?\n")
+  bill = price * int(quantity)
+  bill_2 = price * int(quantity_2)
+  total  =  int(bill) + int(bill_2)
+  print("Noted I'll have your " + order +" & " + order_2 + " ready, meanwhile here is your total bill - " + str(total) + " INR")
+else:
+  final_order = print("Gotcha!")
+  bill = price * int(quantity)
+  print("Noted I'll have your " + order + "Right away, total bill is " + str(bill) + "INR")
+
+
+#print("thank you for your order, the total bill = " + str(bill) + str(bill_2) "INR")
+
+
+
