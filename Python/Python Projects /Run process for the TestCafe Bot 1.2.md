@@ -8,7 +8,6 @@ Version **1.2** builds on the previous versions of the TestCafe Bot.
 
 * **v1.0** — Basic customer interaction and two-item ordering.
 * **v1.1** — Added quantity, price, and bill calculations.
-* **v1.2** — Combines these concepts and adds conditional ordering.
 
 The new features in v1.2 include:
 
