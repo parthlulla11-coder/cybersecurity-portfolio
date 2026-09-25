@@ -6,6 +6,8 @@
 
 * "ls -a" - Shows hidden file (-a with ls)
 
+* "ls -1" shows the display time into row manner. 
+
 * "cd"	- change directory — move into a folder
 
 * "--help" - This option will list the possible options that the command accepts, provide a brief description and example of how to use it. (ls --help)
@@ -44,4 +46,10 @@
 
 * "file"	- file	- Determine the type of a file
 
+* "su" - command used to switch users,  Unless you are the root user (or using root permissions through sudo), then you are required to know two things to facilitate this transition of user accounts we can also use the -l for the login. or if we just use for example - su - user2 while we are logged in with user1 it will show the content of the user 2 with the access of the user 1 as user2 is not logged in:
+
+* The user we wish to switch to
+* The user's password
+
+* /etc - The etc folder (short for etcetera) is a commonplace location to store system files that are used by your operating system. 
 
