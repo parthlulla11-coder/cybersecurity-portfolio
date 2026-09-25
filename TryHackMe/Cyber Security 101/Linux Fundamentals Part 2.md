@@ -18,74 +18,39 @@ This is a similar process for making a folder, which just involves using the mkd
 <img width="866" height="169" alt="image" src="https://github.com/user-attachments/assets/49905208-7997-41ea-a036-a01ac07c21b4" />
 
 
-* *"mkdir"*	- make directory - 	Create a folder
+**Removing Files and Folders (rm)**
 
-* "cp"	- copy	- Copy a file or folder
+"rm" is extraordinary out of the commands that we've covered so far. You can simply remove files by using "rm". However, you need to provide the "-R" switch alongside the name of the directory you wish to remove.
 
-* "mv"	- move	- Move a file or folder
+<img width="859" height="355" alt="image" src="https://github.com/user-attachments/assets/d84cbc7a-0319-4a47-953a-cc27da285eb2" />
 
-* "rm"	- remove	- Remove a file or folder (Add - R to remove the folder)
+**Copying and Moving Files and Folders (cp, mv)**
 
-* *rm -R* - removes the folder
+1. the name of the existing file
 
-* "file"	- file	- Determine the type of a file
+2. the name we wish to assign to the new file when copying
 
-* "whoami" - 	tells you who you are on the system
+cp copies the entire contents of the existing file into the new file. In the screenshot below, we are copying "note" to "note2".
 
-* "echo"	- output some specific text that is provided
+<img width="903" height="177" alt="image" src="https://github.com/user-attachments/assets/ce33e388-53f5-4ba4-8868-1646fc86d292" />
 
-* "ls"	- list what's in the current folder
+Moving a file takes two arguments, just like the cp command. However, rather than copying and/or creating a new file, mv will merge or modify the second file that we provide as an argument. Not only can you use mv to move a file to a new folder, but you can also use mv to rename a file or folder. For example, in the screenshot below, we are renaming the file "note2" to be named "note3". "note3" will now have the contents of "note2". 
 
-* "ls -a" - Shows hidden file (-a with ls)
+<img width="855" height="177" alt="image" src="https://github.com/user-attachments/assets/8337cea4-8d1c-4d32-bb90-29d21571728b" />
 
-* "cd"	- change directory — move into a folder
+**Determining File Type**
 
-* "--help" - This option will list the possible options that the command accepts, provide a brief description and example of how to use it. (ls --help)
+What is often misleading and often catches people out is making presumptions from files as to what their purpose or contents may be. Files usually have what's known as an extension to make this easier. For example, text files usually have an extension of ".txt". But this is not necessary.
 
-* "cat"	- show the contents of a file
+So far, the files we have used in our examples haven't had an extension. Without knowing the context of why the file is there -- we don't really know its purpose. Enter the file command. This command takes one argument. For example, we'll use file to confirm whether or not the "note" file in our examples is indeed a text file, like so file note.
 
-* "pwd"	- print working directory — "where am I?"
-
-* "find" - 	search for files by their name. For example, find -name passwords.txt
-
-* "grep" - 	searches inside for text. For example, grep "password123" passwords.txt
-
-* "&" - 	Runs the command, but does not wait for it to finish before you can do anything else. The command runs in the backgorund, and is helpful for commands that might take a while to complete, or ones that you want to keep running.
-
-* "&&" - 	Runs both commands, but waits for the first command to finish first, before the next. Like a set of dominoes.
-
-* ">"	- Used to redirect output. We can take the output of a command and send it to a file. This operator will overwrite anything that exists in the file.
-
-* ">>"	- This redirector does the same thing, but instead of overwriting, it will just add the output to the bottom of the file.
-
-* "clear" - clears whole terminal. 
-
-* "man ls" - **we can use the man command and then provide the command we want to read the documentation for. (The manual pages are a great source of information for both system commands and applications available on both a Linux machine, which is accessible on the machine itself and online(opens in new tab).)** 
-
-* *"touch"*	- **Create file**
-
-* *"mkdir"*	- make directory - 	Create a folder
-
-**Creating Files and Folders (touch, mkdir)**
-
-Creating files and folders on Linux is a simple process. First, we'll cover creating a file. The touch command takes exactly one argument -- the name we want to give the file we create. For example, we can create the file "note" by using touch note. It's worth noting that touch simply creates a blank file. You would need to use commands like echo or text editors such as nano to add content to the blank file.
-
-<img width="858" height="166" alt="image" src="https://github.com/user-attachments/assets/f1802470-16b5-4e6c-8432-681cc7e7fd93" />
-
-This is a similar process for making a folder, which just involves using the mkdir command and again providing the name that we want to assign to the directory. For example, creating the directory "mydirectory" using mkdir mydirectory.
-
-<img width="866" height="169" alt="image" src="https://github.com/user-attachments/assets/49905208-7997-41ea-a036-a01ac07c21b4" />
+<img width="863" height="131" alt="image" src="https://github.com/user-attachments/assets/d869bb4d-1e2a-4593-887f-3cc1641324d0" />
 
 
-* "cp"	- copy	- Copy a file or folder
 
-* "mv"	- move	- Move a file or folder
 
-* "rm"	- remove	- Remove a file or folder (Add - R to remove the folder)
 
-* *rm -R* - removes the folder
 
-* "file"	- file	- Determine the type of a file
 
 
 
