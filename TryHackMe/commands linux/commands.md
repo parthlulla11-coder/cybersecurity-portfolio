@@ -52,6 +52,9 @@
 * The user's password
 
 * /etc - The etc folder (short for etcetera) is a commonplace location to store system files that are used by your operating system. 
+* /root
+* /var
+* /tmp
 * "ps" - showes the list of running processes
 * "ps aux" - to see the processes that run by other users and that don't run from a session. (system processes)
 * "top" - give out the real time stats of the processes running, instead of one time. it refreshes every 10 seconds. 
