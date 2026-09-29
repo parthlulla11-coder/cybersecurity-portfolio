@@ -140,7 +140,61 @@ Hide full directory paths (OpSec):
 
 updog --hide-base-path
 
-**Processes 101** - 
+**Processes 101** - PID - process ID
+
+commands - 
+
+"ps" - showes the list of running processes
+"ps aux" - to see the processes that run by other users and that don't run from a session. (system processes)
+"top" - give out the real time stats of the processes running, instead of one time. it refreshes every 10 seconds. 
+"kill" - this command is used to kill a process using the PID number that we can get from command "ps" example - kill 1337 (this will terminate the process PID 1337)
+"SIGTERM" - kill the processes but allow it to do some clean up tasks beforehand.
+"SIGKILL" - kill the process - no cleanups
+"SIGSTOP" - suspends/stops a process
+
+"systemctl" this command allowes us to interact with the systemd process/daemon we can use this like systemctl option service
+example we need to start the service like apache2 so the command would look like - sysmtectl start apache2 
+
+There are 4 options for the systemctl - 
+
+* start
+* stop
+* enable
+* disable
+
+**backgrounding and foregrounding in Linux**
+
+Processes can run in two states: In the background and in the foreground. For example, commands that you run in your terminal such as "echo" or things of that sort will run in the foreground of your terminal as it is the only command provided that hasn't been told to run in the background. "Echo" is a great example as the output of echo will return to you in the foreground, but wouldn't in the background - take the screenshot below, for example.
+
+
+<img width="415" height="157" alt="image" src="https://github.com/user-attachments/assets/8ccab6c5-4fe0-4944-bd3d-63897b970b65" />
+
+Here we're running echo "Hi THM" , where we expect the output to be returned to us like it is at the start. But after adding the & operator to the command, we're instead just given the ID of the echo process rather than the actual output -- as it is running in the background.
+
+This is great for commands such as copying files because it means that we can run the command in the background and continue on with whatever further commands we wish to execute (without having to wait for the file copy to finish first)
+
+We can do the exact same when executing things like scripts -- rather than relying on the & operator, we can use Ctrl + Z on our keyboard to background a process. It is also an effective way of "pausing" the execution of a script or command like in the example below:
+
+<img width="597" height="391" alt="image" src="https://github.com/user-attachments/assets/3e1d35f8-c21a-4a0c-9795-f019b356515a" />
+
+**Foregrounding a process**
+
+Now that we have a process running in the background, for example, our script "background.sh" which can be confirmed by using the ps aux command, we can back-pedal and bring this process back to the foreground to interact with.
+
+<img width="906" height="83" alt="image" src="https://github.com/user-attachments/assets/1f950424-e9ff-4fd3-8467-bea085803ec1" />
+
+With our process backgrounded using either Ctrl + Z or the & operator, we can use fg to bring this back to focus like below, where we can see the fg command is being used to bring the background process back into use on the terminal, where the output of the script is now returned to us.
+
+<img width="562" height="476" alt="image" src="https://github.com/user-attachments/assets/dfd0657f-f62f-4827-b5a0-6bc66e2956a8" />
+
+
+**Automation**
+
+Users may want to schedule a certain action or task to take place after the system has booted. Take, for example, running commands, backing up files, or launching your favourite programs on, such as Spotify or Google Chrome.
+
+We're going to be talking about the cron process, but more specifically, how we can interact with it via the use of crontabs . Crontab is one of the processes that is started during boot, which is responsible for facilitating and managing cron jobs.
+
+
 
 
 
