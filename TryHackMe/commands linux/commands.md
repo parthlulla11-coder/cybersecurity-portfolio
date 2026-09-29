@@ -52,4 +52,21 @@
 * The user's password
 
 * /etc - The etc folder (short for etcetera) is a commonplace location to store system files that are used by your operating system. 
+* "ps" - showes the list of running processes
+* "ps aux" - to see the processes that run by other users and that don't run from a session. (system processes)
+* "top" - give out the real time stats of the processes running, instead of one time. it refreshes every 10 seconds. 
+* "kill" - this command is used to kill a process using the PID number that we can get from command "ps" example - kill 1337 (this will terminate the process PID 1337)
+* "SIGTERM" - kill the processes but allow it to do some clean up tasks beforehand.
+* "SIGKILL" - kill the process - no cleanups
+* "SIGSTOP" - suspends/stops a process
+
+* "systemctl" this command allowes us to interact with the systemd process/daemon we can use this like systemctl option service
+example we need to start the service like apache2 so the command would look like - sysmtectl start apache2 
+
+* There are 4 options for the systemctl - 
+
+* start
+* stop
+* enable
+* disable
 
